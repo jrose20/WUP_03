@@ -27,7 +27,7 @@ basicCN <- ggplot(davisdata,aes(y=alcohol,x=Seat))
 ```{r}
 basicCN + geom_boxplot()
 ```
-  
+  Based on this graph we can say that the people sitting in the middle are throwing more drinks back than the front or the back. 
   
 ### get fancy  
 
@@ -51,5 +51,5 @@ plot(TukeyHSD(model1))
 ```
 
 ## Conclusions
-
+Based on the study described above we can interperate that the people sitting in the front- back areas are less likely to be drinking, as to where the people in the middle to the front seem to be the group whom drinks the most. 
 
